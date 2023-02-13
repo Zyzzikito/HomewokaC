@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp3
+namespace ConsoleApp3
 {
     internal class Program
     {
@@ -10,18 +10,14 @@
             int d = 0;
             try
             {
-            Console.WriteLine("Введите первое число");
-            a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите второе число");
-            b = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите третье число");
-            c = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите четвертое число");
-            d = int.Parse(Console.ReadLine());
-            Console.WriteLine($"{konus}");
-            Console.WriteLine($"{sinus}");
-            Console.WriteLine($"{pinus}");
-            Console.WriteLine($"{pahannus}");
+                Console.WriteLine("Введите первое число");
+                a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Введите второе число");
+                b = int.Parse(Console.ReadLine());
+                Console.WriteLine("Введите третье число");
+                c = int.Parse(Console.ReadLine());
+                Console.WriteLine("Введите четвертое число");
+                d = int.Parse(Console.ReadLine());
             }
             catch
             {
